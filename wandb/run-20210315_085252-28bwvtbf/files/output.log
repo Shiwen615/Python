@@ -1,0 +1,14 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/logging/__init__.py", line 997, in emit
+    stream.write(self.terminator)
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/home/shiwen/.local/lib/python3.6/site-packages/ipykernel/parentpoller.py", line 34, in run
+    get_logger().warning("Parent appears to have exited, shutting down.")
+Message: 'Parent appears to have exited, shutting down.'
+Arguments: ()

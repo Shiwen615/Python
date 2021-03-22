@@ -1,0 +1,11 @@
+"123"
+True
+False
+[2,3,4]
+["sdfsd","sdfs"]#list
+(2,34,3)
+("sdfs","sdf")#tuple
+{23,43,5}#集合set
+{"apple":"蘋果","data":"資料"}#dictionary
+x=3
+print(x)

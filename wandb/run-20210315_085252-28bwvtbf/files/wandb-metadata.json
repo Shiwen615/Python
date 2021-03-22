@@ -1,0 +1,34 @@
+{
+    "os": "Linux-4.15.0-136-generic-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.9",
+    "heartbeatAt": "2021-03-15T00:52:53.493970",
+    "startedAt": "2021-03-15T00:52:52.483226",
+    "docker": null,
+    "gpu": "Quadro RTX 5000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9025",
+        "--control=9023",
+        "--hb=9022",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"7b71bb1c-7673-42c4-843d-b094351caa75\"",
+        "--shell=9024",
+        "--transport=\"tcp\"",
+        "--iopub=9026",
+        "--f=/tmp/tmp-10991nK6O8V20gu1B.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Shiwen615/Python.git",
+        "commit": "694442d9e08abc60dd72039642b2d31356ad1cd7"
+    },
+    "email": "shiwen615@gmail.com",
+    "root": "/home/shiwen/remoteSync/python",
+    "host": "elead-cd00",
+    "username": "shiwen",
+    "executable": "/usr/bin/python"
+}
